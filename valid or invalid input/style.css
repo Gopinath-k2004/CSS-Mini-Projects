@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+input{
+height: 50px;
+width: 400px;
+padding:  5px 10px;
+border-radius: 3px;
+outline: none;
+}
+h3{
+    font-size: 25px;
+    font-weight: normal;
+
+}
+input:invalid{
+    border-color: red;
+    animation: shake 0.35s 2;
+}
+@keyframes shake{
+    0%{
+        transform: translateX(4px);
+    }
+    50%{
+        transform: translateX(-4px);
+    }
+
+   100%{
+    transform: translateX(4px);
+}
+}
+input:valid{
+    border-color: green;}

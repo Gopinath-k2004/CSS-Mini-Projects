@@ -1,0 +1,56 @@
+*{
+    
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+
+}
+h1{
+    text-align: center;
+    font-weight: 600;
+    text-transform:uppercase ;
+    font-size: 20px;
+    color: orangered;
+
+
+}
+.arun{
+font-size: 20px;
+border-collapse: collapse;
+min-width: 600px;
+margin: 30px auto;
+box-shadow: 0 0 20px rgba(0,0,0,0.2) ;
+cursor: pointer;
+user-select: none;
+}
+.arun thead tr{
+    background-color: #2f3640;
+    color: white;
+
+}
+.arun th{
+    font-weight: 500;
+    padding: 12px 15px;
+    text-transform: uppercase;
+    text-align: left;
+}
+.arun td{
+padding: 12px 15px;
+color: rgba(0,0,0,0.7);
+}
+.arun tbody tr{
+    border-bottom: 1 px solid #ccc;
+
+}
+.arun tbody tr:nth-last-of-type(even){
+    background-color: 2px solid #2f3640;
+}

@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+
+}
+h1{
+    font-size:150px;
+    color:grey;
+    font-style: italic;
+    font-variant: small-caps;
+    cursor: pointer;
+    transition: 0.5s;
+    animation: glow 0.5s ease infinite;
+}
+/*
+h1:hover{
+    color: white;
+    text-shadow:
+    0 0 5px #12cbc4,
+    0 0 25px #12cbc4,
+    0 0 50px #12cbc4,
+    0 0 100px #12cbc4;
+}
+*/
+@keyframes glow{
+    from{
+        color: grey;
+    }
+    to{
+        text-shadow:
+        0 0 5px #0be288,
+        0 0 25px #12cbc4,
+        0 0 50px #0be288,
+        0 0 100px #1714e7;
+    }
+    }

@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1B1464;
+    color: white;
+
+}
+h1{
+    font-size: 35px;
+    font-weight: 500;
+    width: 0ch;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 1 px solid white ;
+    animation: typing  8s  infinite;
+
+
+}
+@keyframes typing{
+    0%{
+    width: 0ch;
+    }
+    50%{
+    width:  45ch;
+    }
+}
